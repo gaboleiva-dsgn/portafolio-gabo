@@ -1,0 +1,91 @@
+---
+import { web } from "../../public/portafolio.json";
+
+const rutaImagen = "background-image: url('../../public/img/";
+---
+
+<section id="web" class="pt-5">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <p class="tag-title">Diseño Web</p>
+        <p>
+          Experiencias, diseños y desarrollos de aplicaciones web o móviles,
+          atractivas, dinamicas y modernas.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <ul role="list" class="li-card-grid">
+          {  web.map(
+              ({ name, status, description, urlSite, urlRepo, foto, keywords, }) => {
+                const chequedStatus = status === "true" ? "li-card d-flex justify-content-end flex-column" : "d-none";
+                const chequedUrlSite = urlSite === null ? "d-none" : "d-block";
+                const chequedUrlRepo = urlRepo === null ? "d-none" : "d-block";
+                return (
+                  <li class={chequedStatus} style={rutaImagen + foto}>
+                    <div class="row info-card">
+                      <h2>{name} <span>&rarr;</span></h2>
+                      <p>{keywords}</p>
+                      <div class="d-flex justify-content-between">
+                        <a target="_blank" href={urlSite} class={chequedUrlSite}>Ir al sitio web</a>
+                        <a target="_blank" href={urlRepo} class={chequedUrlRepo}>Ir al repositorio</a>
+                      </div>
+                    </div>
+                  </li>
+                );
+              }
+            )
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .li-card-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    padding: 0;
+  }
+  .li-card {
+    height: 280px;
+    list-style: none;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    contain: content;
+  }
+  .li-card h2 {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  .li-card p {
+    font-size: 0.8rem;
+    color: #ffffff;
+  }
+  .li-card a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .info-card {
+    background-color: #444444;
+    height: 100%;
+    padding: 0.6rem;
+    opacity: 0;
+    transition: all 500ms linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    translate: calc(-100rem, 0);
+    text-align: right;
+  }
+  .info-card:is(:hover, :focus-within, :focus, :active, :focus-visible) {
+    opacity: 0.93;
+    translate: calc(0rem, 0);
+  }
+</style>

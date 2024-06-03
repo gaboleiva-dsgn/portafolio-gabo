@@ -1,0 +1,89 @@
+---
+import { info } from "../../public/portafolio.json";
+const { bienvenida, category, shortName } = info;
+const { profiles } = info;
+import SocialPill from "./SocialPill.astro";
+import GitHub from "./icons/GitHub.astro";
+import LinkedIn from "./icons/LinkedIn.astro";
+import Mail from "./icons/Mail.astro";
+import Logo from "./icons/Logo.astro";
+---
+
+<section id="hero">
+  <div class="container pt-4">
+    <h1 class="textProtafolio">{category}</h1>
+    <div class="row">
+      <div class="col-12">
+        <Logo class="logoHero" />
+      </div>
+      <div class="col-10">
+        <h1 class="inter-tight-h1 mt-3">Soy {shortName}</h1>
+        <h2 class="mt-3 text-justify">{bienvenida}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container redSocial grid d-flex col-12 list-box gap-3 mt-3">
+    <SocialPill
+      class="rounded-pill px-3 py-1"
+      href="https://www.linkedin.com/in/gaboleiva/"
+      target="_blank"
+    >
+      <LinkedIn class="size-4 md:size-6" />
+      LinkedIn
+    </SocialPill>
+    <SocialPill
+      class="rounded-pill px-3 py-1"
+      href="https://github.com/gaboleiva-dsgn"
+      target="_blank"
+    >
+      <GitHub class="size-4 md:size-6" />
+      GitHub
+    </SocialPill>
+  </div>
+</section>
+
+<style>
+  .logoHero {
+    text-align: left;
+    max-height: 190px;
+  }
+  .textName {
+    transform: translateX(0) translateY(1rem);
+    z-index: 1;
+    color: #444444;
+  }
+  .fontArchitectsDaughter {
+    font-family: "Architects Daughter";
+    font-size: 5rem;
+  }
+  #hero h2 {
+    font-size: 2.1rem;
+    font-weight: 400;
+  }
+  .textProtafolio {
+    transform: rotate(-6deg) translateX(-4rem) translateY(-0.6rem);
+    opacity: 0.02;
+    font-size: 12rem;
+    position: absolute;
+    font-weight: 900;
+  }
+  .logoHero {
+    text-align: left;
+    max-height: 190px;
+    transform: translateX(8rem);
+  }
+  .redSocial a {
+    font-weight: 500;
+    color: #bbbbbb;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    border: 1px solid #bbbbbb;
+    transition: all 500ms linear;
+  }
+  .redSocial a:hover,
+  .redSocial a:focus {
+    color: #444444;
+    background-color: #ea5f34;
+    border: 1px solid #ea5f34;
+  }
+</style>

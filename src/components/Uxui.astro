@@ -1,0 +1,33 @@
+---
+
+
+import { uxui } from "../../public/portafolio.json";
+
+---
+
+<section id="uxui" class="container pt-5">
+    <div class="row py-5">
+      <div class="col-12">
+        <p class="tag-title">Diseño Ux/Ui</p>
+        <p>
+          Me interesa trabajar en identidad de marcas y entregar caracter y personalidad dependiendo de la necesidad.
+        </p>
+      </div>
+        <ul role="list" class="col-12 d-flex flex-row">
+          {
+            uxui.map(
+              ({ name, status, description, foto, keywords, }) => {
+                const chequedStatus =  status === "true" ? "li-card d-flex flex-column p-4" : "d-none";
+                return (
+                    <li class={chequedStatus}>
+                      <h2>{name} <span>&rarr;</span></h2>
+                      <p>{description}</p>
+                      <code>{keywords}</code>
+                    </li>
+                );
+              }
+            )
+          }
+        </ul>
+      </div>
+    </section>

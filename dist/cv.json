@@ -1,0 +1,353 @@
+{
+    "basics": {
+      "name": "Gabriel Leiva Chávez",
+      "shotName": "Gabo Leiva",
+      "label": "Diseñador Gráfico, Desarrollado Web & Diseñador UX/UI",
+      "image": "/cv-gaboleiva/FotoPerfil-01.webp",
+      "email": "g.leivach@gmail.com",
+      "phone": "+56951119671",
+      "url": "https://gaboleiva.cl",
+      "summary": "+20 años como Diseñador Gráfico, +19 años de experiencia como Desarrollador Web y +8 como Diseñador UX/UI . Actualmente estudiante del Bootcamp Desarrollo Fullstack Javascript en Desafío Latam para Talento Digital. Vivo en Santiago, Chile. He trabajado en sectores públicos, privados y educativos. como desarrollador web creando desarrollos frontend",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Santiago",
+        "countryCode": "CL",
+        "region": "Chile"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "GaboLeiva",
+          "url": "https://www.linkedin.com/in/gaboleiva/"
+        },
+        {
+          "network": "GitHub",
+          "username": "GaboLeiva-dsgn",
+          "url": "https://github.com/gaboleiva-dsgn"
+        },
+        {
+          "network": "X",
+          "username": "LeivaGabo",
+          "url": "https://twitter.com/LeivaGabo"
+        },
+        {
+            "network": "Instagram",
+            "username": "gabo_leiva",
+            "url": "https://www.instagram.com/gabo_leiva/"
+        },
+        {
+            "network": "Facebook",
+            "username": "gaboleiva",
+            "url": "https://www.facebook.com/LeivaGabo"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Chiledear",
+        "position": "Desarrollador Web & Diseñador UX/UI",
+        "url": "https://chiledar.cl/",
+        "startDate": "2022-11-01",
+        "endDate": "2023-06-31",
+        "summary": "Diseño de mailings para fundaciones y campañas de captación de socios o recaudación, diseño UX/UI de landing page de captación de nuevos socios de fundaciones, Diseño UX/UI de portal para captadores de socios y supervisores de fundaciones.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "RedUbicua",
+        "position": "Desarrollador Web & Diseñador UX/UI",
+        "url": null,
+        "startDate": "2021-05-01",
+        "endDate": "2022-10-31",
+        "summary": "Diseño de la experiencia del usuario y diseño de la interfaz del comparador de planes de telefonía móvil, telefonía fija y televisión de compañías de telecomunicaciones Plan Inteligente. Diseño y desarrollo del blog, piezas publicitarias para la web y redes sociales para la aplicación Plan inteligente.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Memorable Café",
+        "position": "Diseñador Gráfico",
+        "url": "https://www.memorablecafe.cl/",
+        "startDate": "2020-12-01",
+        "endDate": "2021-04-31",
+        "summary": "Diseño de piezas publicitarias para la difusión en medios digitales e impresos, diseños de etiquetas de productos y diseño de piezas gráficas corporativas.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Ministerio del Interior y Seguridad Pública",
+        "position": "Desarrollador Web y Diseñador UX/UI",
+        "url": "https://www.interior.gob.cl/",
+        "startDate": "2018-03-18",
+        "endDate": "2020-10-31",
+        "summary": "Desarrollo de sitios web ministeriales y mantención de existentes, desarrollo front-end de distintos software desarrollados por la División de Redes y Seguridad Informática. Integrante del equipo front-end para el desarrollo de sitios web y software. Se desarrolla el trabajo en equipo, trabajo en situación de presión y seguridad informática.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "I. Municipalidad de La Florida",
+        "position": "Diseñador Gráfico y Desarrollador Web",
+        "url": "https://www.laflorida.cl/sitio/",
+        "startDate": "2015-03-01",
+        "endDate": "2017-12-31",
+        "summary": "Desarrollo del sitio web institucional y de la implementación del Sistema de Gestión Académica SGA en la web. Encargado del diseño de gráficas institucionales para las diferentes plataformas de comunicación. Se desarrolla en comunicación institucional y potencia la programación web.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Universidad Iberoamericana de Ciencias y Tecnología",
+        "position": "Diseñador Gráfico y Desarrollador Web",
+        "url": "http://ibero.usach.cl/",
+        "startDate": "2014-03-01",
+        "endDate": "2015-10-31",
+        "summary": "Desarrollo del sitio web institucional y de la implementación del Sistema de Gestión Académica SGA en la web. Encargado del diseño de gráficas institucionales para las diferentes plataformas de comunicación. Se desarrolla en comunicación institucional y potencia la programación web.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Play Music S.A.",
+        "position": "Diseñador Gráfico y Desarrollador Web",
+        "url": null,
+        "startDate": "2012-03-01",
+        "endDate": "2013-10-31",
+        "summary": "Encargado del diseño y desarrollo de los branding para diversas empresas con venta de tickets a través de sitios web (Teatro Municipal de Santiago, GAM, FITAM). Programador HTML + CSS + JS y .ASP para la plataforma de venta de ticket Audience View. Se desarrolla y potencia las capacidades analíticas y los conocimientos en .ASP.",
+        "highlights": [
+          "Started the company"
+        ]
+      }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [
+      {
+        "institution": "Desafío Latam (Talento Digital)",
+        "url": null,
+        "area": "Desarrollo Fullstack Javascript",
+        "studyType": "Bachelor",
+        "startDate": "2024-01-05",
+        "endDate": "",
+        "score": "0.0",
+        "courses": [
+          "DB1101 - Basic SQL"
+        ]
+      },
+      {
+        "institution": "Universidad de Chile",
+        "url": null,
+        "area": "Habilidades directivas y gestión de negocios",
+        "studyType": "Course",
+        "startDate": "2015-04-05",
+        "endDate": "2015-07-31",
+        "score": "6.5",
+        "courses": [
+          "DB1101 - Basic SQL"
+        ]
+      },
+    {
+      "institution": "Universidad del Pacífico",
+      "url": null,
+      "area": "Diseño y Desarrollo de Sitios Web",
+      "studyType": "Bachelor",
+      "startDate": "2005-03-01",
+      "endDate": "2005-12-15",
+      "score": "6.5",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Universidad del Pacífico",
+      "url": null,
+      "area": "Diseñador Gráfico",
+      "studyType": "Bachelor",
+      "startDate": "1998-03-01",
+      "endDate": "2002-05-01",
+      "score": "6.1",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+    "awards": [
+        {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML5",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS3",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Bootstrap",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "Angular",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "Astro",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Sitios web estáticos", "html", "css"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "Figma",
+        "level": "Avanzado",
+        "keywords": [
+          "wireframe", "prototipo", "UI"
+        ]
+      },
+      {
+        "name": "Adobe XD",
+        "level": "Avanzado",
+        "keywords": [
+          "wireframe", "prototipo", "UI"
+        ]
+      },
+      {
+        "name": "Adobe Photoshop",
+        "level": "Master",
+        "keywords": [
+          "edit images", "optimization"
+        ]
+      },
+      {
+        "name": "Adobe Illustrator",
+        "level": "Master",
+        "keywords": [
+          "vectization", "illustration"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Intermedio"
+      }
+    ],
+    "interests": [{
+      "name": "Futbol",
+      "keywords": [
+        "Colo Colo"
+      ]
+    },
+    {
+        "name": "Calcio",
+        "keywords": [
+          "Juventus"
+        ]
+      },
+    {
+        "name": "Basketball",
+        "keywords": [
+          "Lakers"
+        ]
+      }
+      
+],
+    "references": [{
+      "name": "Daniel Berenguela",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "Name Proyect",
+        "isActive": false,
+        "description": "Description the proyect",
+        "url": null,
+        "highlights": [
+          "Elige tu propia aventura",
+          "In progress"
+        ]
+        
+      }
+    ]
+  }

@@ -1,0 +1,317 @@
+{
+  "info": {
+    "title": "Portafolio Gabo Leiva",
+    "category": "Portafolio",
+    "description": "Recopilación de proyectos, trabajos y desafíos personales",
+    "saludo": "Soy Gabo Leiva",
+    "bienvenida": "Diseñador gráfico apasionado por la programación y diseño, con experiencia en desarrollo Front End. Hoy, estudiante de desarrollo Full Stack Java Script.",
+    "url": "http://gaboleiva.cl",
+    "version": "1.0.0",
+    "author": "Gabriel Leiva",
+    "shortName": "Gabo Leiva",
+    "emailPersonal": "g.leivach@gmail.com",
+    "emailwork": "contacto@gaboleiva.cl",
+    "phone": "+56951119671",
+    "copyright": "Copyright ® 2022 Gabo Leiva",
+    "positions": [
+      {
+        "name": "Diseñador Gráfico",
+        "status": "true",
+        "age": 2003
+      },
+      {
+        "name": "Desarrollador Web",
+        "status": "true",
+        "age": 2005
+      },
+      {
+        "name": "Diseñador UxUi",
+        "status": "true",
+        "age": 2018
+      },
+      {
+        "name": "FrontEnd Developer",
+        "status": "true",
+        "age": 2020
+      },
+      {
+        "name": "BackEnd Developer",
+        "status": "false",
+        "age": 2024
+      },
+      {
+        "name": "Fullstack Developer",
+        "status": "true",
+        "age": 2024
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend"],
+        "status": "true"
+      },
+      {
+        "name": "CSS3",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"],
+        "status": "true"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermedio",
+        "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"],
+        "status": "true"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend",
+          "CSS Framework",
+          "Diseño Responsive"
+        ],
+        "status": "true"
+      },
+      {
+        "name": "Tailwind",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend",
+          "CSS Framework",
+          "Diseño Responsive"
+        ],
+        "status": "true"
+      },
+      {
+        "name": "Node",
+        "level": "Intermedio",
+        "keywords": ["Express", "Backend", "JavaScript"],
+        "status": "true"
+      },
+      {
+        "name": "Express",
+        "level": "Intermedio",
+        "keywords": [
+          "Backend", "JavaScript", "Servidor"
+        ],
+        "status": "true"
+      },
+      {
+        "name": "Angular",
+        "level": "Intermedio",
+        "keywords": ["Desarrollo Web", "Backend", "JavaScript"],
+        "status": "true"
+      },
+      {
+        "name": "React",
+        "level": "Intermedio",
+        "keywords": ["Desarrollo Web", "Backend", "JavaScript"],
+        "status": "true"
+      },
+      {
+        "name": "Astro",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend",
+          "Sitios web estáticos",
+          "html",
+          "css"
+        ],
+        "status": "true"
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"],
+        "status": "true"
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones",
+          "Colaboración",
+          "Código Fuente",
+          "Git"
+        ],
+        "status": "true"
+      },
+      {
+        "name": "Figma",
+        "level": "Avanzado",
+        "keywords": ["wireframe", "prototipo", "UI"],
+        "status": "true"
+      },
+      {
+        "name": "Adobe XD",
+        "level": "Avanzado",
+        "keywords": ["wireframe", "prototipo", "UI"],
+        "status": "true"
+      },
+      {
+        "name": "Adobe Photoshop",
+        "level": "Master",
+        "keywords": ["edit images", "optimization"],
+        "status": "true"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "level": "Master",
+        "keywords": ["Vectization", "Illustration"],
+        "status": "true"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "Intermedio",
+        "keywords": ["SQL", "Database", "Servidor"],
+        "status": "true"
+      }
+    ],
+    "profiles": [
+      {
+        "network": "Mail",
+        "username": "contacto@gaboleiva.cl",
+        "url": "https://www.linkedin.com/in/gaboleiva/",
+        "status": "true"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "GaboLeiva",
+        "url": "https://www.linkedin.com/in/gaboleiva/",
+        "status": "true"
+      },
+      {
+        "network": "GitHub",
+        "username": "GaboLeiva-dsgn",
+        "url": "https://github.com/gaboleiva-dsgn",
+        "status": "true"
+      },
+      {
+        "network": "X",
+        "username": "LeivaGabo",
+        "url": "https://twitter.com/LeivaGabo",
+        "status": "false"
+      }
+    ]
+  },
+
+  "menu": [
+    {
+      "name": "Web",
+      "label": "Desarrollo Web",
+      "status": "true",
+      "href": "#web",
+      "icon": "fas fa-globe"
+    },
+    {
+      "name": "Branding",
+      "label": "Diseño Gráfico",
+      "status": "true",
+      "href": "#branding",
+      "icon": "fas fa-globe"
+    },
+    {
+      "name": "Ux/Ui",
+      "label": "Diseño Ux/Ui",
+      "status": "true",
+      "href": "#uxui",
+      "icon": "fas fa-globe"
+    },
+    {
+      "name": "Desarrollo",
+      "label": "Desarrollo front-end",
+      "status": "false",
+      "href": "#desarrollo",
+      "icon": "fas fa-globe"
+    }
+  ],
+  "web": [
+    {
+      "name": "Plan Inteligente",
+      "status": "true",
+      "description": "Sitio web de plan de ingeniería",
+      "urlSite": "https://planinteligente.cl",
+      "urlRepo": null,
+      "foto": "ui-01.png",
+      "fotos": ["", ""],
+      "keywords": ["JavaScript/", "Bootstrap/", "html/", "css/", "php"]
+    },
+    {
+      "name": "Mis Socios",
+      "status": "true",
+      "description": "Sitio web de plan de ingeniería",
+      "urlSite": "https://missocios.cl",
+      "urlRepo": null,
+      "foto": "ui-01.png",
+      "fotos": ["", ""],
+      "keywords": ["Wordpress/", "Elementor/", "html/", "css/", "php"]
+    },
+    {
+      "name": "csirt",
+      "status": "true",
+      "description": "Sitio web del equipo de seguridad de la CSIRT",
+      "urlSite": "https://csirt.gob.cl",
+      "urlRepo": null,
+      "foto": "ui-01.png",
+      "fotos": ["", ""],
+      "keywords": ["Wordpress/", "Bootstrap/", "html/", "css/", "php"]
+    }
+  ],
+  "uxui": [
+    {
+      "name": "Trabajo ux/ui uno",
+      "status": "true",
+      "description": "Descripción uno",
+      "foto": "",
+      "fotos": ["", ""],
+      "keywords": ["Figma", "Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Trabajo ux/ui dos",
+      "status": "true",
+      "description": "Descripción dos",
+      "foto": "",
+      "fotos": ["", ""],
+      "keywords": ["Figma", "Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Trabajo ux/ui tres",
+      "status": "true",
+      "description": "Descripción tres",
+      "foto": "",
+      "fotos": ["", ""],
+      "keywords": ["Figma", "Photoshop", "Illustrator"]
+    }
+  ],
+  "branding": [
+    {
+      "name": "Trabajo Branding uno",
+      "status": "true",
+      "description": "Descripción uno",
+      "foto": "",
+      "fotos": ["", ""],
+      "keywords": ["Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Trabajo Branding dos",
+      "status": "true",
+      "description": "Descripción dos",
+      "foto": "",
+      "fotos": ["", ""],
+      "keywords": ["Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Trabajo Branding tres",
+      "status": "true",
+      "description": "Descripción tres",
+      "foto": "",
+      "fotos": ["", ""],
+      "keywords": ["Photoshop", "Illustrator"]
+    }
+  ]
+}

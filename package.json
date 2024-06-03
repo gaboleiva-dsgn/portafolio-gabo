@@ -1,0 +1,25 @@
+{
+  "name": "portafolio-gabo-leiva",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@fontsource-variable/pixelify-sans": "^5.0.3",
+    "@fontsource/architects-daughter": "^5.0.12",
+    "@fontsource/montserrat-alternates": "^5.0.13",
+    "@popperjs/core": "^2.11.8",
+    "@types/bootstrap": "^5.2.10",
+    "astro": "^4.8.7",
+    "astro-bootstrap": "^0.6.2",
+    "astro-robots-txt": "1.0.0",
+    "bootstrap": "^5.3.3",
+    "typescript": "^5.4.5"
+  }
+}

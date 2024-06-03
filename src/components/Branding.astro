@@ -1,0 +1,58 @@
+---
+
+import { branding } from "../../public/portafolio.json";
+---
+
+<section id="branding" class="container pt-5">
+    <div class="row mt-5">
+      <div class="col-12">
+        <p class="tag-title">Branding</p>
+        <p>
+          Me interesa trabajar en identidad de marcas y entregar caracter y personalidad dependiendo de la necesidad.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <ul role="list" class="col-12 d-flex flex-row">
+        {
+          branding.map(({ name, status, description, foto, keywords }) => {
+            const chequedStatus =
+              status === "true" ? "li-card d-flex flex-column p-4" : "d-none";
+            return (
+              <li class={chequedStatus}>
+                  <div class="row flex-row">
+                      <h2>
+                  {name} 
+                </h2>
+                <span class="arrows">&rarr;</span>
+                  </div>
+                <p>{description}</p>
+                <code>{keywords}</code>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+</section>
+<style>
+  .tagTitle {
+    border: 2px solid #444444;
+    color: #444444;
+    max-width: max-content;
+    padding: 2rem;
+    border-radius: 50%;
+    transform: rotate(12deg);
+  }
+.arrows:hover {
+  animation: move-arrows 1s ease-in-out alternate;
+}
+@keyframes move-arrows {
+  0% {
+    transform: translateX(0px);
+  }
+100% {
+    transform: translateX(100px);
+  }
+}
+</style>

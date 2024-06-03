@@ -1,0 +1,61 @@
+---
+import Layout from "../layouts/Layout.astro";
+import X from "./icons/X.astro";
+import LinkedIn from "./icons/LinkedIn.astro";
+import { info } from "../../public/portafolio.json";
+import SocialPill from "./SocialPill.astro";
+
+const { emailwork, phone } = info;
+
+const { profiles } = info;
+---
+
+<Layout>
+  <footer class="footer py-5 bg-dark mt-5">
+    <div class="container">
+      <div class="row text-center"> 
+        <div class="col-12">
+          <h2 class="letter-spacing-4">{phone}</h2>
+        </div>
+        <div class="col-12">
+          <p>{emailwork}</p>
+        </div>
+       <div class="copyright col-12 mt-5">
+        <p class="text-center">{info.copyright}</p>
+       </div>
+      </div>
+    </div>
+  </footer>
+</Layout>
+<style>
+  .footer {
+    padding: 5rem;
+    color: #ffffff;
+  }
+  .copyright {
+    font-size: 0.9rem;
+    ont-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    opacity: 0.2;
+    letter-spacing: 0.05rem;
+}
+  .list-item {
+    background-color: white;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    animation: fadeIn 1550ms infinite alternate;
+    
+  }
+  .list-item:hover {
+    background-color: #EA5F34;
+    animation: paused;
+     }
+     @keyframes fadeIn {
+      from {
+        opacity: 0.95;
+      }
+      to {
+        opacity: 0.6;
+      }
+    }
+</style>

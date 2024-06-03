@@ -1,0 +1,37 @@
+---
+import { info } from "../../public/portafolio.json";
+
+const { skills } = info;
+---
+
+<section id="skills" class="container">
+  <div class="row">
+    <div class="col">
+      <p class="tag-title">Skills</p>
+    </div>
+  </div>
+  <div class="row skillsBox flex-row gap-2 px-1">
+    {
+      skills.map(({ name, status }) => {
+        const checkedStatus = status === "true" ? "d-block skills" : "d-none";
+        return (
+          <span class={checkedStatus}>
+            <code>{name}</code>
+          </span>
+        );
+      })
+    }
+  </div>
+</section>
+<style>
+  .skills {
+    background-color: #EA5F34;
+    border-radius: 0.5rem;
+    padding: 0.05rem 0.5rem;
+    width: fit-content;
+  }
+  code {
+    color: #ffffff;
+    font-size: 0.8rem;
+  }
+</style>
