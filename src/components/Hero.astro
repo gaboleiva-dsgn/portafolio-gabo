@@ -11,7 +11,6 @@ import Logo from "./icons/Logo.astro";
 
 <section id="hero">
   <div class="container pt-4">
-    <h1 class="textProtafolio">{category}</h1>
     <div class="row">
       <div class="col-12">
         <Logo class="logoHero" />
@@ -43,9 +42,8 @@ import Logo from "./icons/Logo.astro";
 </section>
 
 <style>
-  .logoHero {
-    text-align: left;
-    max-height: 190px;
+  #hero {
+    /* height: 100svh; */
   }
   .textName {
     transform: translateX(0) translateY(1rem);
@@ -68,8 +66,8 @@ import Logo from "./icons/Logo.astro";
     font-weight: 900;
   }
   .logoHero {
+    height: 280px;
     text-align: left;
-    max-height: 190px;
     transform: translateX(8rem);
   }
   .redSocial a {

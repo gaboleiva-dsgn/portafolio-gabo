@@ -4,6 +4,7 @@ import X from "./icons/X.astro";
 import LinkedIn from "./icons/LinkedIn.astro";
 import { info } from "../../public/portafolio.json";
 import SocialPill from "./SocialPill.astro";
+import Logov2 from "./icons/Logov2.astro";
 
 const { emailwork, phone } = info;
 
@@ -20,7 +21,10 @@ const { profiles } = info;
         <div class="col-12">
           <p>{emailwork}</p>
         </div>
-       <div class="copyright col-12 mt-5">
+        <div class="col-12 mt-5">
+          <Logov2 class="logoFooter" />
+        </div>
+       <div class="copyright col-12 mt-1">
         <p class="text-center">{info.copyright}</p>
        </div>
       </div>
@@ -28,6 +32,18 @@ const { profiles } = info;
   </footer>
 </Layout>
 <style>
+  .logoFooter {
+    fill: #ffffff;
+    max-height: 80px;
+  }
+
+  . .logoFooter .cls-1 {
+          fill: #fff;
+        }
+  
+        .cls-2 {
+          fill: #fff;
+        }
   .footer {
     padding: 5rem;
     color: #ffffff;
