@@ -232,14 +232,14 @@
   ],
   "web": [
     {
-      "name": "Plan Inteligente",
+      "name": "CSIRT Americas",
       "status": "true",
-      "description": "Sitio web de plan de ingeniería",
-      "urlSite": "https://planinteligente.cl",
+      "description": "Sitio web de la red de equipos de respuesta ante incidentes cibernéticos (CSIRTs) gubernamentales de los estados mienmbros de la Organización de los Estados Americanos (OEA)",
+      "urlSite": "https://csirtamericas.org/",
       "urlRepo": null,
-      "foto": "ui-01.png",
+      "foto": "web-csirtamericas-01.webp",
       "fotos": ["", ""],
-      "keywords": ["JavaScript/", "Bootstrap/", "html/", "css/", "php"]
+      "keywords": ["JavaScript", "Bootstrap", "html", "css", "php"]
     },
     {
       "name": "Mis Socios",
@@ -247,19 +247,19 @@
       "description": "Sitio web de plan de ingeniería",
       "urlSite": "https://missocios.cl",
       "urlRepo": null,
-      "foto": "ui-01.png",
+      "foto": "web-missocios-01.webp",
       "fotos": ["", ""],
-      "keywords": ["Wordpress/", "Elementor/", "html/", "css/", "php"]
+      "keywords": ["Wordpress", "Elementor", "html", "css", "Bootstrap"]
     },
     {
-      "name": "csirt",
+      "name": "LARGROUP",
       "status": "true",
       "description": "Sitio web del equipo de seguridad de la CSIRT",
-      "urlSite": "https://csirt.gob.cl",
+      "urlSite": "https://largroup.cl/",
       "urlRepo": null,
-      "foto": "ui-01.png",
+      "foto": "web-largroup-01.webp",
       "fotos": ["", ""],
-      "keywords": ["Wordpress/", "Bootstrap/", "html/", "css/", "php"]
+      "keywords": ["Wordpress", "Bootstrap", "html", "css", "php"]
     }
   ],
   "uxui": [
