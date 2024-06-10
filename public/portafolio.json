@@ -237,7 +237,7 @@
       "description": "Sitio web de la red de equipos de respuesta ante incidentes cibernéticos (CSIRTs) gubernamentales de los estados mienmbros de la Organización de los Estados Americanos (OEA)",
       "urlSite": "https://csirtamericas.org/",
       "urlRepo": null,
-      "foto": "web-csirtamericas-01.webp",
+      "foto": "/portafolio-gabo/web-csirtamericas-01.webp",
       "fotos": ["", ""],
       "keywords": ["JavaScript", "Bootstrap", "html", "css", "php"]
     },
@@ -247,7 +247,7 @@
       "description": "Sitio web de plan de ingeniería",
       "urlSite": "https://missocios.cl",
       "urlRepo": null,
-      "foto": "web-missocios-01.webp",
+      "foto": "/portafolio-gabo/web-missocios-01.webp",
       "fotos": ["", ""],
       "keywords": ["Wordpress", "Elementor", "html", "css", "Bootstrap"]
     },
@@ -257,7 +257,7 @@
       "description": "Sitio web del equipo de seguridad de la CSIRT",
       "urlSite": "https://largroup.cl/",
       "urlRepo": null,
-      "foto": "web-largroup-01.webp",
+      "foto": "/portafolio-gabo/web-largroup-01.webp",
       "fotos": ["", ""],
       "keywords": ["Wordpress", "Bootstrap", "html", "css", "php"]
     }
