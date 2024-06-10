@@ -11,7 +11,7 @@ import "bootstrap/dist/css/bootstrap.css";
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/portafolio-gabo/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
@@ -20,7 +20,10 @@ import "bootstrap/dist/css/bootstrap.css";
   </body>
 </html>
 <style is:global>
-  
+.favicon {
+  max-width: 20px !important;
+  max-height: 20px !important;
+}  
 body {
     color: #444444;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -50,12 +53,10 @@ body {
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-size: 5rem;
   }
   .inter-tight-h2 {
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 2.2rem;
   }
   :root {
     --accent: 136, 58, 234;
