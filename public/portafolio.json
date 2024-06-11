@@ -290,26 +290,50 @@
   ],
   "branding": [
     {
-      "name": "Trabajo Branding uno",
-      "status": "true",
-      "description": "Descripción uno",
-      "foto": "",
+      "name": "Gabo Leiva",
+      "status": "",
+      "description": "Logotipo de Gabo Leiva",
+      "foto": "branding-gabo.webp",
       "fotos": ["", ""],
       "keywords": ["Photoshop", "Illustrator"]
     },
     {
-      "name": "Trabajo Branding dos",
+      "name": "Cabañas Melilahuen",
       "status": "true",
-      "description": "Descripción dos",
-      "foto": "",
+      "description": "Logotipo de Cabañas Melilahuen",
+      "foto": "branding-melilahuen.webp",
       "fotos": ["", ""],
       "keywords": ["Photoshop", "Illustrator"]
     },
     {
-      "name": "Trabajo Branding tres",
+      "name": "Mis Socios",
       "status": "true",
-      "description": "Descripción tres",
-      "foto": "",
+      "description": "Logotipo de Mis Socios",
+      "foto": "branding-missocios.webp",
+      "fotos": ["", ""],
+      "keywords": ["Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Isoterma",
+      "status": "true",
+      "description": "Logotipo de Isoterma",
+      "foto": "branding-isoterma.webp",
+      "fotos": ["", ""],
+      "keywords": ["Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Domangge Inversiones",
+      "status": "true",
+      "description": "Logotipo de Domangge Inversiones",
+      "foto": "branding-domangge.webp",
+      "fotos": ["", ""],
+      "keywords": ["Photoshop", "Illustrator"]
+    },
+    {
+      "name": "Alto Pellet",
+      "status": "true",
+      "description": "Logotipo de Alto Pellet",
+      "foto": "branding-altopellet.webp",
       "fotos": ["", ""],
       "keywords": ["Photoshop", "Illustrator"]
     }
