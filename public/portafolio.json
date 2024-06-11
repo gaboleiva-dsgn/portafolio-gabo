@@ -291,7 +291,7 @@
   "branding": [
     {
       "name": "Gabo Leiva",
-      "status": "",
+      "status": "true",
       "description": "Logotipo de Gabo Leiva",
       "foto": "branding-gabo.webp",
       "fotos": ["", ""],
