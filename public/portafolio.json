@@ -290,14 +290,6 @@
   ],
   "branding": [
     {
-      "name": "Gabo Leiva",
-      "status": "true",
-      "description": "Logotipo de Gabo Leiva",
-      "foto": "branding-gabo.webp",
-      "fotos": ["", ""],
-      "keywords": ["Photoshop", "Illustrator"]
-    },
-    {
       "name": "Cabañas Melilahuen",
       "status": "true",
       "description": "Logotipo de Cabañas Melilahuen",
