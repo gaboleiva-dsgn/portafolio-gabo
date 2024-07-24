@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Portafolio Gabo Leiva
 
 ```sh
 npm create astro@latest -- --template basics
