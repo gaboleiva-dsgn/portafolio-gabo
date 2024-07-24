@@ -95,9 +95,7 @@
       {
         "name": "Express",
         "level": "Intermedio",
-        "keywords": [
-          "Backend", "JavaScript", "Servidor"
-        ],
+        "keywords": ["Backend", "JavaScript", "Servidor"],
         "status": "true"
       },
       {
@@ -264,16 +262,18 @@
   ],
   "uxui": [
     {
-      "name": "Trabajo ux/ui uno",
+      "name": "Plan Inteligente",
       "status": "true",
-      "description": "Descripción uno",
-      "foto": "",
+      "description": "Wireframe + UI Kit de aplicación de comparación de planes de telefonía móvil, fija y televisión",
+      "urlSite": "https://planinteligente.cl/",
+      "urlRepo": "https://www.figma.com/design/vGwF40OmhBOxG7vUU5NBtA/Plan-Inteligente---Wireframe-%2B-UI-Kit?node-id=0-1&t=3l1pIm9vUs08zre0-1",
+      "foto": "ui-01.webp",
       "fotos": ["", ""],
       "keywords": ["Figma", "Photoshop", "Illustrator"]
     },
     {
       "name": "Trabajo ux/ui dos",
-      "status": "true",
+      "status": "false",
       "description": "Descripción dos",
       "foto": "",
       "fotos": ["", ""],
@@ -281,7 +281,7 @@
     },
     {
       "name": "Trabajo ux/ui tres",
-      "status": "true",
+      "status": "false",
       "description": "Descripción tres",
       "foto": "",
       "fotos": ["", ""],

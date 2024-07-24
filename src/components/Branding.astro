@@ -1,34 +1,35 @@
 ---
-
 import { branding } from "../../public/portafolio.json";
 ---
 
 <section id="branding" class="container pt-5">
-    <div class="row mt-5">
-      <div class="col-12">
-        <p class="tag-title">Branding</p>
-        <p>
-          Me interesa trabajar en identidad de marcas y entregar caracter y personalidad dependiendo de la necesidad.
-        </p>
-      </div>
+  <div class="row mt-5">
+    <div class="col-12">
+      <p class="tag-title">Branding</p>
+      <p>
+        Me interesa trabajar en identidad de marcas y entregar caracter y
+        personalidad dependiendo de la necesidad.
+      </p>
     </div>
-    <div class="wrapper">
-      <div class="items">
-        {
-          branding.map(({ name, status, description, foto, keywords }) => {
-            const chequedStatus =
-              status === "true" ? "" : "d-none";
-            return (
-                  <div class={`item ${chequedStatus}`} tabindex="0" style={`background-image: url(/portafolio-gabo/img/${foto})`}> 
-                      <h2 class="name-branding">
-                  {name} 
-                </h2>
-                  </div>
-            );
-          })
-        }
-      </div>
+  </div>
+  <div class="wrapper">
+    <div class="items">
+      {
+        branding.map(({ name, status, description, foto, keywords }) => {
+          const chequedStatus = status === "true" ? "" : "d-none";
+          return (
+            <div
+              class={`item ${chequedStatus}`}
+              tabindex="0"
+              style={`background-image: url(/portafolio-gabo/img/${foto})`}
+            >
+              <h2 class="name-branding">{name}</h2>
+            </div>
+          );
+        })
+      }
     </div>
+  </div>
 </section>
 <style>
   .tagTitle {
@@ -39,129 +40,132 @@ import { branding } from "../../public/portafolio.json";
     border-radius: 50%;
     transform: rotate(12deg);
   }
-.arrows:hover {
-  animation: move-arrows 1s ease-in-out alternate;
-}
-@keyframes move-arrows {
-  0% {
-    transform: translateX(0px);
+  .arrows:hover {
+    animation: move-arrows 1s ease-in-out alternate;
   }
-100% {
-    transform: translateX(100px);
+  @keyframes move-arrows {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
   }
-}
 
-
-:root{
+  :root {
     --index: calc(1vw + 1vh);
-    --transition: cubic-bezier(.1, .7, 0, 1);
-}
+    --transition: cubic-bezier(0.1, 0.7, 0, 1);
+  }
 
-.wrapper{
+  .wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.items{
+  .items {
     display: flex;
     gap: 0.4rem;
     perspective: calc(var(--index) * 35);
-}
+  }
 
-.item{
+  .item {
     width: calc(var(--index) * 6);
     height: calc(var(--index) * 12);
     background-color: #e4e4e4;
     background-size: cover;
     background-position: center;
     cursor: pointer;
-    filter: grayscale(1) brightness(.5);
-    transition: transform 1.25s var(--transition), filter 3s var(--transition), width 1.25s var(--transition);
+    filter: grayscale(1) brightness(0.5);
+    transition:
+      transform 1.25s var(--transition),
+      filter 3s var(--transition),
+      width 1.25s var(--transition);
     will-change: transform, filter, rotateY, width;
-}
+  }
 
-.item::before, .item::after{
-    content: '';
+  .item::before,
+  .item::after {
+    content: "";
     position: absolute;
     height: 100%;
     width: 20px;
     right: calc(var(--index) * -1);
-}
+  }
 
-.item::after{
+  .item::after {
     left: calc(var(--index) * -1);
-}
+  }
 
-.items .item:hover{
+  .items .item:hover {
     filter: inherit;
     transform: translateZ(calc(var(--index) * 10));
-}
+  }
 
-/*Right*/
+  /*Right*/
 
-.items .item:hover + *{
+  .items .item:hover + * {
     filter: inherit;
     transform: translateZ(calc(var(--index) * 8.5)) rotateY(35deg);
     z-index: -1;
-}
+  }
 
-.items .item:hover + * + *{
+  .items .item:hover + * + * {
     filter: inherit;
     transform: translateZ(calc(var(--index) * 5.6)) rotateY(40deg);
     z-index: -2;
-}
+  }
 
-.items .item:hover + * + * + *{
+  .items .item:hover + * + * + * {
     filter: inherit;
     transform: translateZ(calc(var(--index) * 2.5)) rotateY(30deg);
     z-index: -3;
-}
+  }
 
-.items .item:hover + * + * + * + *{
+  .items .item:hover + * + * + * + * {
     filter: inherit;
-    transform: translateZ(calc(var(--index) * .6)) rotateY(15deg);
+    transform: translateZ(calc(var(--index) * 0.6)) rotateY(15deg);
     z-index: -4;
-}
+  }
 
+  /*Left*/
 
-/*Left*/
-
-.items .item:has( + :hover){
+  .items .item:has(+ :hover) {
     filter: inherit;
     transform: translateZ(calc(var(--index) * 8.5)) rotateY(-35deg);
-}
+  }
 
-.items .item:has( + * + :hover){
+  .items .item:has(+ * + :hover) {
     filter: inherit;
     transform: translateZ(calc(var(--index) * 5.6)) rotateY(-40deg);
-}
+  }
 
-.items .item:has( + * + * + :hover){
+  .items .item:has(+ * + * + :hover) {
     filter: inherit;
     transform: translateZ(calc(var(--index) * 2.5)) rotateY(-30deg);
-}
+  }
 
-.items .item:has( + * + * + * + :hover){
+  .items .item:has(+ * + * + * + :hover) {
     filter: inherit;
-    transform: translateZ(calc(var(--index) * .6)) rotateY(-15deg);
-}
+    transform: translateZ(calc(var(--index) * 0.6)) rotateY(-15deg);
+  }
 
-.items .item:active, .items .item:focus {
-	width: 28vw;
-	filter: inherit;
-	z-index: 100;
-	transform: translateZ(calc(var(--index) * 10));
-    margin: 0 .45vw;
-}
+  .items .item:active,
+  .items .item:focus {
+    width: 28vw;
+    filter: inherit;
+    z-index: 100;
+    transform: translateZ(calc(var(--index) * 10));
+    margin: 0 0.45vw;
+  }
 
-.name-branding {
-    display: none;  
-}
+  .name-branding {
+    display: none;
+  }
 
-.name-branding:has( + :hover) {
-    display: block;  
+  .name-branding:has(+ :hover) {
+    display: block;
     z-index: 100;
     color: #fff;
-}
+  }
 </style>

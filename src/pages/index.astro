@@ -1,27 +1,26 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../components/Hero.astro';
-import Menu from '../components/Menu.astro';
-import Web from '../components/Web.astro';
-import Uxui from '../components/Uxui.astro';
-import Branding from '../components/Branding.astro';
-import Skills from '../components/Skills.astro';
-import Footer from '../components/Footer.astro';
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Menu from "../components/Menu.astro";
+import Web from "../components/Web.astro";
+import Uxui from "../components/Uxui.astro";
+import Branding from "../components/Branding.astro";
+import Skills from "../components/Skills.astro";
+import Footer from "../components/Footer.astro";
 
-import { info } from '../../public/portafolio.json';
+import { info } from "../../public/portafolio.json";
 
-const { title, category, shortName, } = info;
+const { title, category, shortName } = info;
 ---
 
 <Layout title={title}>
-	<main class="container-fluid px-0">
-		<Hero></Hero>
-		<Menu></Menu>
-		<Web></Web>
-		<Branding></Branding>
-		<!-- <Uxui></Uxui> -->
-		<Skills></Skills>
-		<Footer></Footer>	
-	</main>
+  <main class="container-fluid px-0">
+    <Hero />
+    <Menu />
+    <Web />
+    <Branding />
+    <Uxui />
+    <Skills />
+    <Footer />
+  </main>
 </Layout>
-

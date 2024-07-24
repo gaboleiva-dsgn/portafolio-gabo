@@ -1,33 +1,63 @@
 ---
-
-
 import { uxui } from "../../public/portafolio.json";
-
 ---
 
 <section id="uxui" class="container pt-5">
-    <div class="row py-5">
-      <div class="col-12">
-        <p class="tag-title">Diseño Ux/Ui</p>
-        <p>
-          Me interesa trabajar en identidad de marcas y entregar caracter y personalidad dependiendo de la necesidad.
-        </p>
-      </div>
-        <ul role="list" class="col-12 d-flex flex-row">
-          {
-            uxui.map(
-              ({ name, status, description, foto, keywords, }) => {
-                const chequedStatus =  status === "true" ? "li-card d-flex flex-column p-4" : "d-none";
-                return (
-                    <li class={chequedStatus}>
-                      <h2>{name} <span>&rarr;</span></h2>
-                      <p>{description}</p>
-                      <code>{keywords}</code>
-                    </li>
-                );
-              }
-            )
+  <div class="row py-5">
+    <div class="col-12">
+      <p class="tag-title">Diseño Ux/Ui</p>
+      <p>Wireframe, UI Kit, Prototipos, Mockups.</p>
+    </div>
+    <ul role="list" class="box-uxui">
+      {
+        uxui.map(
+          ({ name, status, description, foto, keywords, urlSite, urlRepo }) => {
+            const chequedStatus =
+              status === "true" ? "li-card d-flex flex-column p-4" : "d-none";
+            const chequedUrlSite = urlSite === null ? "d-none" : "d-block";
+            const chequedUrlRepo = urlRepo === null ? "d-none" : "d-block";
+            return (
+              <li class={chequedStatus}>
+                <img src={`/portafolio-gabo/img/${foto}`} alt={name} />
+                <h2>
+                  {name} <span>&rarr;</span>
+                </h2>
+                <p>{description}</p>
+                <code>{keywords.join(" | ")}</code>
+                <div class="d-flex justify-content-between">
+                  <a target="_blank" href={urlSite} class={chequedUrlSite}>
+                    Ir al sitio web
+                  </a>
+                  <a target="_blank" href={urlRepo} class={chequedUrlRepo}>
+                    Ir al repositorio
+                  </a>
+                </div>
+              </li>
+            );
           }
-        </ul>
-      </div>
-    </section>
+        )
+      }
+    </ul>
+  </div>
+</section>
+<style>
+  .box-uxui {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 1rem;
+  }
+  .box-uxui a {
+    color: #e37239;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border: 1px solid #e37239;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+  }
+  .box-uxui a:hover,
+  .box-uxui a:focus {
+    color: #fff;
+    background-color: #e37239;
+    border: 1px solid #e37239;
+  }
+</style>

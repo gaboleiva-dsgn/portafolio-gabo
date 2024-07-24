@@ -1,23 +1,25 @@
 ---
-import { menu } from "../../public/portafolio.json"
+import { menu } from "../../public/portafolio.json";
 
 const id = "navbarPortafolio";
 ---
+
 <section class="sticky-top bg-light py-2 mt-5" id="Menu">
-    <nav id={id} class="navbar navbar-expand-lg navbar-dark sticky-top" >
-        <div class="container-fluid">
-            <div class="navbar-nav w-100 justify-content-center gap-5 flex-row">
-                {
-                    menu.map(({ name, status, href }) => {
-                      const chequedStatus = status === "true" ? "nav-link d-block" : "d-none";
-                      return (
-                      <a class={chequedStatus} href={href}>{name}</a>
-                      )
-                    })
-                  }
-            </div>
-        </div>
-      </nav>
+  <nav id={id} class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="navbar-nav w-100 justify-content-center gap-5 flex-row">
+      {
+        menu.map(({ name, status, href }) => {
+          const chequedStatus =
+            status === "true" ? "nav-link d-block" : "d-none";
+          return (
+            <a class={chequedStatus} href={href}>
+              {name}
+            </a>
+          );
+        })
+      }
+    </div>
+  </nav>
 </section>
 
 <style>
@@ -32,16 +34,15 @@ const id = "navbarPortafolio";
     transition: all 500ms linear;
   }
   .nav-link:hover {
-    color: #EA5F34;
+    color: #ea5f34;
     animation: movesake 50ms ease alternate infinite;
   }
   @keyframes movesake {
     0% {
-      transform: rotate(-4deg)
+      transform: rotate(-4deg);
     }
     100% {
-      transform: rotate(4deg)
+      transform: rotate(4deg);
     }
-
   }
 </style>

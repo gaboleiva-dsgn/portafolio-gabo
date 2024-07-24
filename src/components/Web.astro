@@ -6,7 +6,7 @@ const rutaImagen = "background-image: url('img/";
 
 <section id="web" class="pt-5">
   <div class="container mt-5">
-    <div class="row">
+    <section class="row">
       <div class="col">
         <p class="tag-title">Diseño Web</p>
         <p>
@@ -14,7 +14,7 @@ const rutaImagen = "background-image: url('img/";
           atractivas, dinamicas y modernas.
         </p>
       </div>
-    </div>
+    </section>
     <div class="box-web row">
       {
         web.map(
@@ -25,7 +25,10 @@ const rutaImagen = "background-image: url('img/";
             return (
               <div class="col">
                 <figure class={`card-web ${chequedStatus}`}>
-                  <img src={`/portafolio-gabo/img/${foto}`} alt={`imagen de ${name}`} />
+                  <img
+                    src={`/portafolio-gabo/img/${foto}`}
+                    alt={`imagen de ${name}`}
+                  />
                   <figcaption>
                     <h3>{name}</h3>
 
@@ -51,9 +54,8 @@ const rutaImagen = "background-image: url('img/";
 <style>
   .box-web {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 1rem;
-    
   }
   .card-web {
     min-width: 100%;
@@ -91,7 +93,6 @@ const rutaImagen = "background-image: url('img/";
   .card-web > figcaption > p {
     color: #e37239;
     font-size: 0.9rem;
-
   }
   .card-web > figcaption a {
     color: #e37239;
@@ -101,7 +102,8 @@ const rutaImagen = "background-image: url('img/";
     padding: 0.2rem 0.5rem;
     border-radius: 6px;
   }
-  .card-web > figcaption a:hover, .card-web > figcaption a:focus {
+  .card-web > figcaption a:hover,
+  .card-web > figcaption a:focus {
     color: #fff;
     background-color: #e37239;
     border: 1px solid #e37239;
