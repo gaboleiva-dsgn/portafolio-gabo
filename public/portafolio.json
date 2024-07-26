@@ -4,7 +4,7 @@
     "category": "Portafolio",
     "description": "Recopilación de proyectos, trabajos y desafíos personales",
     "saludo": "Soy Gabo Leiva",
-    "bienvenida": "Diseñador gráfico apasionado por la programación y diseño, con experiencia en desarrollo Front End. Hoy, estudiante de desarrollo Full Stack Java Script.",
+    "bienvenida": "Soy Diseñador Gráfico, Ux/Ui y Front-end apasionado por crear experiencias digitales intuitivas y atractivas, combinando creatividad y habilidades técnicas. Actualmente, perfeccionando mis habilidades como Desarrollador Full Stack JavaScript Trainee, siempre listo para afrontar nuevos desafíos.",
     "url": "http://gaboleiva.cl",
     "version": "1.0.0",
     "author": "Gabriel Leiva",
@@ -197,7 +197,6 @@
       }
     ]
   },
-
   "menu": [
     {
       "name": "Web",
